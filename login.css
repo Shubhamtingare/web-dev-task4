@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.outerbox {
+  width: 100%;
+  max-height: 1000px;
+  height: 100%;
+  /* background: linear-gradient(to top left, #3ed8ff, #a8f5ff); */
+  background: transparent;
+  overflow: hidden;
+}
+
+.innerbox {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  width: 400px;
+  height: fit-content;
+  margin: 0 auto;
+  top: 55%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  /* backdrop-filter: blur(8px); */
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #6a7a84;
+  z-index: 1;
+  color: white;
+}
+.signup-header h1 {
+  font-size: 2.3rem;
+  color: #f9f9f9;
+  text-transform: capitalize;
+  text-align: center;
+}
+.signup-header p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.signup-main {
+  margin: 20px 0;
+}
+.signup-main p {
+  margin: 10px 0;
+}
+.signup-main p label {
+  display: block;
+  font-weight: bold;
+}
+.signup-main p input {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #cccc;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+}
+.signup-main p input[type="submit"] {
+  background-color: #d30a0a;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #d30a0a;
+}
+.signup-main p input[type="submit"]:hover {
+  background-color: #d30a0a;
+}
+.or {
+  text-align: center;
+}
+#code {
+  background: rgba(254, 253, 253, 0.2);
+}
+.forgot_pass {
+  text-align: center;
+}
+.signup-footer {
+  color: #555;
+  text-align: center;
+}
+.signup-footer p a {
+  color: #2773a5;
+}
+.remember {
+  text-align: left;
+  padding-bottom: 10px;
+  color: #f9f9f9;
+  display: flex;
+  gap: 10px;
+}
+.register {
+  text-align: left;
+}
+.register .signupnow {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.desc {
+  padding-top: 10px;
+  text-align: left;
+  font-size: small;
+}
+.desc .learnmore {
+  text-decoration: none;
+}

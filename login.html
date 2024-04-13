@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="outerbox">
+      <img
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+        alt="BG hero image"
+        class="hero__bg__image"
+      />
+      <div class="innerbox">
+        <header class="signup-header">
+          <h1>Sign In</h1>
+        </header>
+        <main class="signup-main">
+          <form action="#">
+            <p>
+              <!-- <label for="email">Email or Phone Number</label> -->
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email or Phone Number"
+                required
+              />
+            </p>
+            <p>
+              <!-- <label for="password">Password</label> -->
+              <input
+                type="password"
+                name="pass"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </p>
+            <p>
+              <input type="submit" id="submit" value="Sign In" />
+            </p>
+            <p class="or">OR</p>
+            <p>
+              <input type="submit" id="code" value="Use a Sign-In Code" />
+            </p>
+            <p class="forgot_pass">Forgot Password?</p>
+          </form>
+        </main>
+        <footer class="signup-footer">
+          <p class="remember">
+            <input type="checkbox" name="" id="remember" />Remember Me
+          </p>
+          <p class="register">New to NetFlix? <a class="signupnow" href="/">Sign up now</a></p>
+          <p class="desc">
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <a href="#" class="learnmore">learn more</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
